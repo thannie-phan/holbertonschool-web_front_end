@@ -2,13 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --color-primary: #D73953;
+    --color-black: #090909;
+    --color-white: #FFFFFF;
+    --color-light-grey: #F3F3F3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black)
+}
+
 body {
-    color: #161616;
+    color: var(--text-color);
 }
 
 a {
     color: #161616;
-    /* a is anchor element */
 }
 
 .visually-hidden {
@@ -16,9 +24,8 @@ a {
 }
 
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    color: #D73953
-}
+    color: var(--color-primary);
