@@ -544,7 +544,7 @@ ul.row {
     /* this class render as a block element */
 }
 
-.social-link>svg {
+.social-link > svg {
     /* svg is child of social-link. if it's .svg.social-link it means target a single element that belong to both class svg and class social-link */
     fill: var(--text-color);
     /* fill defines the interior color of shapes inside an SVG aka vector graphic. same as color for text */
