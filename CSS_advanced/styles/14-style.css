@@ -378,7 +378,7 @@ template {
     display: none;
 }
 
-/*beginning of own code from file 13-style*/
+/* beginning of own code from file 13-style */
 
 html {
     scroll-behavior: smooth;
@@ -395,7 +395,7 @@ body {
 }
 
 a:link {
-    /*targets all anchor elements that have an href and have NOT been visited yet.*/
+    /* targets all anchor elements that have an href and have NOT been visited yet. */
     color: #161616;
     text-decoration: none;
 }
