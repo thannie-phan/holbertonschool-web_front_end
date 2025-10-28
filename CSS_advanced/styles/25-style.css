@@ -647,7 +647,8 @@ h6 {
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
-    --section-tagline-margin: 0 --button-display: inline-block;
+    --section-tagline-margin: 0;
+    --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
     /* border thickness border style border colour */
